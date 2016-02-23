@@ -1,0 +1,17 @@
+     A*=========================================================================
+     A* OBJECT NAME  : CATLG
+     A* AUTHOR       : JULIO CESAR TORRES
+     A* DATE CREATED : 2016/02/18
+     A* DESCRIPTION  : CATALOG DDS FILE
+     A*=========================================================================
+     A                                      UNIQUE
+     A                                      REF(LKDSAK/MASTFRF)
+     A          R CATLGREC
+     A            CATLGID   R               REFFLD(ID) TEXT('ID')
+     A                                      COLHDG('CATALOG' 'ID')
+     A            CATLGTX   R               REFFLD(NAME) TEXT('NAME')
+     A                                      COLHDG('CATALOG' 'NAME')
+     A          K CATLGID
+     A*=========================================================================
+     A* END OF CATLG DDS FILE
+     A*=========================================================================
