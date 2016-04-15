@@ -1,0 +1,14 @@
+                                       UNIQUE
+                                       REF(LKDSAK/REFMSTR)
+A          R BKSTK
+A            BKID           5          COLHDG('ID')
+A            BKTITL    R               COLHDG('TITLE')
+                                       REFFLD(TITLE)
+A            BKAUTH    R               COLHDG('AUTHOR')
+                                       REFFLD(AUTHORS)
+A            BKSUBJ        64          COLHDG('SUBJECT')
+A            BKEDT         32          COLHDG('EDITOR')
+A            BKYR           4P 0       COLHDG('YEAR' 'EDITED')
+A            BKPG           4P 0       COLHDG('QTY' 'PAGES')
+A            BKISBN        13          COLHDG('COD ISBN')
+A          K BKID
